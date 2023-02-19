@@ -1,13 +1,6 @@
 import styled from "styled-components";
 
 const ComponentStyle = styled.div`
-  .logo {
-    width: 150px;
-    filter: drop-shadow(8px 6px 5px #000000);
-    -webkit-filter: drop-shadow(8px 6px 5px #000000);
-    -moz-filter: drop-shadow(8px 6px 5px #000000);
-  }
-
   .secao-text {
     max-width: 55rem;
     display: flex;

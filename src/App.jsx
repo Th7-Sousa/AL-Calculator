@@ -1,10 +1,11 @@
-import { Logotipo, Text, Form } from './components'
+import { Text, Form } from './components'
+import combustivel from './assets/combustivel.png'
 
 function App() {
 
   return (
     <div className='semiRoot'>
-      <Logotipo />
+      <img src={combustivel} alt="Logotipo" />
       <Text />
       <Form />
     </div>
